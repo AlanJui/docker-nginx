@@ -19,7 +19,7 @@ $ docker build -t <docker-hub-username>/nginx_site:1.0 .
 ### (1) 啟動 Docker Container
 
 ```bash
-$ docker run --rm --name web_nginx --publish 8080:80 -d <docker-hub-username>/nginx_site:1.0
+$ docker run --rm --name web-nginx --publish 8080:80 -d <docker-hub-username>/nginx_site:1.0
 ```
 
 
