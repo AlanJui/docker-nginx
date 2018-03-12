@@ -30,3 +30,7 @@ $ docker run --rm --name web_nginx --publish 8080:80 -d <docker-hub-username>/ng
 ```bash
 $ docker exec -it web-nginx bash
 ```
+
+# 參考資料
+
+ - [nginx Official Repository on Docker Hub](https://hub.docker.com/_/nginx/)
