@@ -5,6 +5,7 @@
 手邊有現成的 Static Web Site ，欲觀察其內容，可使用本專案作為「Project Template」，
 透過 nginx ，快速完成 Static Web Site 的建置，以便能馬上使用瀏覽器觀察其內容。 
 
+---
 
 # 作業程序
 
@@ -30,6 +31,8 @@ $ docker run --rm --name web-nginx --publish 8080:80 -d <docker-hub-username>/ng
 ```bash
 $ docker exec -it web-nginx bash
 ```
+
+---
 
 # 參考資料
 
